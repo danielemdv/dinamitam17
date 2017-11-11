@@ -8,6 +8,9 @@ function preload() {
     game.load.image('player1', 'sprites/phaser-dude.png'); //Cargar la imagen para el sprite del player
     game.load.image('platform', 'sprites/platform.png');  //Cargar la imagen para el sprite de las plataformas
 
-    game.load.image('player2', 'sprites/phaser-ship.png');  //Cargar la para el sprite de player2
+    //////
+    game.load.image('block', 'sprites/block.png'); // Cargar un bloque
+
+    game.load.image('player2', 'sprites/phaser-ship.png');  //Cargar la para el sprite de las plataformas
 
 }
